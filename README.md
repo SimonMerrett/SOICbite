@@ -13,3 +13,18 @@ The footprints are available as a Kicad mod footprint file under downloads. I'll
 You do need to adjust your SOIC-8 test clip so that it will close enough to press the contact pins against the PCB pads. See the photos in the images folder - about 1mm will do to start with. Depending on your pin configuration, you need to make sure opposing contacts don't touch each other when no PCB is between them. 
 
 Also, you may need to use short sections of thin traces to escape the pads between the NPTH.
+
+# Pin assignment
+
+If you don't know where to start, here are a few suggestions for pin assignments of some interfaces:
+
+| Pin | UART | SPI       | SWIM | SWD   | ESP8266 |
+| --- | ---  | ---       | ---  | ---   | ---     |
+| 1   | RTS  | RST       | NRST |       | RST     |
+| 2   | RX2  | CS        |      |       | GPIO0   |
+| 3   | TX2  |           |      |       | GPIO2   |
+| 4   | GND  | GND       | GND  | GND   | GND     |
+| 5   | RX   | MOSI/MOMI | SWIM | SWDIO | RX      |
+| 6   | TX   | MISO      |      | SWO   | TX      |
+| 7   | CTS  | SCK/CLK   |      | SWCLK | CH_PD   |
+| 8   | Vcc  | Vcc       | Vcc  | Vcc   | Vcc     |
