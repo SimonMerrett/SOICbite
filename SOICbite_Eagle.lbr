@@ -66,7 +66,7 @@ Original footprint created by: Simon Merrit &lt;br&gt;
 Adapted to Eagle by: Chiel Voswijk (Foxhood)
 &lt;br&gt;
 &lt;br&gt;
-NOTE: Footprint is to be used on the edge of a PCB and may require the use of thin traces for accessing the inner pads. This may violate some Design Rule! Authors cannot guarantee working with every SOIC-8 Testclip.</description>
+NOTE: Footprint is to be used on the edge of a PCB and may require the use of thin traces for accessing the inner pads. This may violate some Design Rules of certain! One can often ignore these, but understand working is NOT guaranteed.</description>
 <packages>
 <package name="SOICBITE">
 <smd name="1" x="1.905" y="0.75" dx="0.8" dy="1.5" layer="1" roundness="100" rot="R180"/>
