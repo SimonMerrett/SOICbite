@@ -110,7 +110,7 @@ Text Label 3300 2300 2    50   ~ 0
 USB_ID
 Wire Wire Line
 	3000 2300 3300 2300
-Text Label 5550 2300 2    50   ~ 0
+Text Label 5550 2000 2    50   ~ 0
 USB_ID
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J2
@@ -195,7 +195,7 @@ Ribbon cable wires are connected odd-even \nto the SOIC clip (which is numbered 
 Text Label 3150 1900 0    50   ~ 0
 SOIC_1
 Wire Wire Line
-	5550 2300 5200 2300
+	5550 2000 5200 2000
 Wire Wire Line
 	4400 2100 4700 2100
 Wire Wire Line
@@ -204,7 +204,7 @@ Wire Wire Line
 	4500 2300 4500 2400
 Wire Wire Line
 	4400 2200 4700 2200
-NoConn ~ 5200 2000
+NoConn ~ 5200 2300
 NoConn ~ 5200 2100
 NoConn ~ 5200 2200
 $EndSCHEMATC
