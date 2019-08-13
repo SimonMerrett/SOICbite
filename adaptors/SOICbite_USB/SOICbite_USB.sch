@@ -59,9 +59,9 @@ Text Label 3300 2100 2    50   ~ 0
 USB+
 Text Label 3300 2200 2    50   ~ 0
 USB-
-Text Label 4400 2100 0    50   ~ 0
-USB+
 Text Label 4400 2200 0    50   ~ 0
+USB+
+Text Label 4400 2100 0    50   ~ 0
 USB-
 Wire Wire Line
 	3000 1900 3150 1900

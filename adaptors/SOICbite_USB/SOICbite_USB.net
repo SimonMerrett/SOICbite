@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/patrick/Projects/dprv/SOICbite/adaptors/SOICbite_USB/SOICbite_USB.sch)
-    (date "Tue 13 Aug 2019 19:17:43 BST")
+    (date "Tue 13 Aug 2019 19:27:12 BST")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -110,9 +110,9 @@
       (uri /usr/share/kicad/library/Connector_Generic.lib)))
   (nets
     (net (code 1) (name /USB+)
-      (node (ref J2) (pin 3))
       (node (ref J3) (pin 3))
-      (node (ref J1) (pin 3)))
+      (node (ref J1) (pin 3))
+      (node (ref J2) (pin 5)))
     (net (code 2) (name GND)
       (node (ref J1) (pin 6))
       (node (ref J1) (pin 5))
@@ -125,7 +125,7 @@
     (net (code 4) (name /USB-)
       (node (ref J3) (pin 4))
       (node (ref J1) (pin 2))
-      (node (ref J2) (pin 5)))
+      (node (ref J2) (pin 3)))
     (net (code 5) (name /USB_ID)
       (node (ref J1) (pin 4))
       (node (ref J2) (pin 2))
