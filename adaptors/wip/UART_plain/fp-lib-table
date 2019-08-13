@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name UART_plain)(type KiCad)(uri ${KIPRJMOD}/UART_plain.pretty)(options "")(descr ""))
-)
