@@ -27,4 +27,4 @@ If you don't know where to start, here are a few suggestions for pin assignments
 | 5   | RX   | MOSI/MOMI | SWIM | SWDIO | RX      |     | SDA |
 | 6   | TX   | MISO      |      | SWO   | TX      |     |     |
 | 7   | CTS  | SCK/CLK   |      | SWCLK | CH_PD   |     | SCL |
-| 8   | RTS  | RST       | NRST |       | RST     | ID  |     |
+| 8   | RTS  | RST       | NRST | NRST  | RST     | ID  |     |
