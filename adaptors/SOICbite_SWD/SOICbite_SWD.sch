@@ -1,0 +1,239 @@
+EESchema Schematic File Version 4
+LIBS:SOICbite_SWD-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3600 3200 3600 3100
+$Comp
+L power:GND #PWR0101
+U 1 1 5D904883
+P 3600 4600
+F 0 "#PWR0101" H 3600 4350 50  0001 C CNN
+F 1 "GND" H 3605 4427 50  0000 C CNN
+F 2 "" H 3600 4600 50  0001 C CNN
+F 3 "" H 3600 4600 50  0001 C CNN
+	1    3600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4400 3600 4500
+Wire Wire Line
+	3500 4400 3500 4500
+Wire Wire Line
+	3500 4500 3600 4500
+Connection ~ 3600 4500
+Wire Wire Line
+	3600 4500 3600 4600
+$Comp
+L power:GND #PWR0102
+U 1 1 5D905325
+P 4850 3750
+F 0 "#PWR0102" H 4850 3500 50  0001 C CNN
+F 1 "GND" V 4855 3622 50  0000 R CNN
+F 2 "" H 4850 3750 50  0001 C CNN
+F 3 "" H 4850 3750 50  0001 C CNN
+	1    4850 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 3550 5550 3550
+Wire Wire Line
+	4100 3500 4300 3500
+Text Label 4150 3500 0    50   ~ 0
+NRST
+Wire Wire Line
+	5550 3650 5850 3650
+Wire Wire Line
+	4100 3900 4400 3900
+Text Label 4150 3900 0    50   ~ 0
+SWO
+Text Label 5550 3650 0    50   ~ 0
+SWO
+$Comp
+L power:VCC #PWR0103
+U 1 1 5D9080B6
+P 3600 3100
+F 0 "#PWR0103" H 3600 2950 50  0001 C CNN
+F 1 "VCC" H 3617 3273 50  0000 C CNN
+F 2 "" H 3600 3100 50  0001 C CNN
+F 3 "" H 3600 3100 50  0001 C CNN
+	1    3600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5D908E14
+P 5400 4350
+F 0 "J3" H 5372 4232 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 5372 4323 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5400 4350 50  0001 C CNN
+F 3 "~" H 5400 4350 50  0001 C CNN
+	1    5400 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5D90CADD
+P 4900 4150
+F 0 "#PWR0104" H 4900 3900 50  0001 C CNN
+F 1 "GND" H 4905 3977 50  0000 C CNN
+F 2 "" H 4900 4150 50  0001 C CNN
+F 3 "" H 4900 4150 50  0001 C CNN
+	1    4900 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 4150 4900 4150
+Wire Wire Line
+	5200 4250 4900 4250
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 J1
+U 1 1 5D90377C
+P 3600 3800
+F 0 "J1" H 3157 3846 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 3157 3755 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 3600 3800 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 3250 2550 50  0001 C CNN
+	1    3600 3800
+	1    0    0    -1  
+$EndComp
+Text Label 5550 3550 0    50   ~ 0
+SWDCLK
+Text Label 4150 3700 0    50   ~ 0
+SWDCLK
+$Comp
+L power:VCC #PWR0105
+U 1 1 5D90FD16
+P 4900 3450
+F 0 "#PWR0105" H 4900 3300 50  0001 C CNN
+F 1 "VCC" H 4917 3623 50  0000 C CNN
+F 2 "" H 4900 3450 50  0001 C CNN
+F 3 "" H 4900 3450 50  0001 C CNN
+	1    4900 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 3450 4900 3450
+$Comp
+L power:VCC #PWR0106
+U 1 1 5D910DF1
+P 4900 4450
+F 0 "#PWR0106" H 4900 4300 50  0001 C CNN
+F 1 "VCC" H 4918 4623 50  0000 C CNN
+F 2 "" H 4900 4450 50  0001 C CNN
+F 3 "" H 4900 4450 50  0001 C CNN
+	1    4900 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 4450 4900 4450
+Text Label 4900 4250 0    50   ~ 0
+SWDCLK
+Text Label 4900 4350 0    50   ~ 0
+SWDIO
+Wire Wire Line
+	4900 4350 5200 4350
+Wire Wire Line
+	4100 3700 4450 3700
+Text Label 5550 3750 0    50   ~ 0
+SWDIO
+Text Label 4150 3800 0    50   ~ 0
+SWDIO
+Wire Wire Line
+	4100 3800 4450 3800
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 J4
+U 1 1 5D91E136
+P 3600 5900
+F 0 "J4" H 3157 5946 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 3157 5855 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 3600 5900 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 3250 4650 50  0001 C CNN
+	1    3600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5D9200D0
+P 3600 5200
+F 0 "#PWR0107" H 3600 5050 50  0001 C CNN
+F 1 "VCC" H 3617 5373 50  0000 C CNN
+F 2 "" H 3600 5200 50  0001 C CNN
+F 3 "" H 3600 5200 50  0001 C CNN
+	1    3600 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5200 3600 5300
+$Comp
+L power:GND #PWR0108
+U 1 1 5D9208CA
+P 3600 6700
+F 0 "#PWR0108" H 3600 6450 50  0001 C CNN
+F 1 "GND" H 3605 6527 50  0000 C CNN
+F 2 "" H 3600 6700 50  0001 C CNN
+F 3 "" H 3600 6700 50  0001 C CNN
+	1    3600 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6500 3500 6600
+Wire Wire Line
+	3500 6600 3600 6600
+Wire Wire Line
+	3600 6600 3600 6700
+Wire Wire Line
+	3600 6500 3600 6600
+Connection ~ 3600 6600
+Text Label 4150 5600 0    50   ~ 0
+NRST
+Wire Wire Line
+	4100 5800 4450 5800
+Wire Wire Line
+	4100 5900 4400 5900
+Wire Wire Line
+	4100 6000 4400 6000
+Text Label 4150 5900 0    50   ~ 0
+SWDIO
+Text Label 4150 5800 0    50   ~ 0
+SWDCLK
+Wire Wire Line
+	4100 5600 4350 5600
+Text Label 4150 6000 0    50   ~ 0
+SWO
+NoConn ~ 4100 6100
+NoConn ~ 4100 4000
+NoConn ~ 5050 3550
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise J2
+U 1 1 5D92C59A
+P 5250 3550
+F 0 "J2" H 5300 3867 50  0000 C CNN
+F 1 "SOICBite IDC Header" H 5300 3776 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 5250 3550 50  0001 C CNN
+F 3 "~" H 5250 3550 50  0001 C CNN
+	1    5250 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3750 5050 3750
+NoConn ~ 5050 3650
+Text Label 5550 3450 0    50   ~ 0
+NRST
+Wire Wire Line
+	5550 3450 5850 3450
+Wire Wire Line
+	5550 3750 5850 3750
+$EndSCHEMATC
