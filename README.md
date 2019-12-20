@@ -18,13 +18,13 @@ Also, you may need to use short sections of thin traces to escape the pads betwe
 
 If you don't know where to start, here are a few suggestions for pin assignments of some interfaces:
 
-| Pin | UART | SPI       | SWIM | SWD   | ESP8266 | USB | I2C |
-| --- | ---  | ---       | ---  | ---   | ---     | --- | --- |
-| 1   | Vcc  | Vcc       | Vcc  | Vcc   | Vcc     | Vcc | Vcc |
-| 2   | RX2  | CS        |      |       | GPIO0   | D-  |     |
-| 3   | TX2  |           |      |       | GPIO2   | D+  |     |
-| 4   | GND  | GND       | GND  | GND   | GND     | GND | GND |
-| 5   | RX   | MOSI/MOMI | SWIM | SWDIO | RX      |     | SDA |
-| 6   | TX   | MISO      |      | SWO   | TX      |     |     |
-| 7   | CTS  | SCK/CLK   |      | SWCLK | CH_PD   |     | SCL |
-| 8   | RTS  | RST       | NRST | NRST  | RST     | ID  |     |
+| Pin | UART | SPI       | SWIM | SWD   | ESP8266 | USB | I2C | PIC ICSP |
+| --- | ---  | ---       | ---  | ---   | ---     | --- | --- | ---      |
+| 1   | Vcc  | Vcc       | Vcc  | Vcc   | Vcc     | Vcc | Vcc | Vcc      |
+| 2   | RX2  | CS        |      |       | GPIO0   | D-  |     | Vpp      |
+| 3   | TX2  |           |      |       | GPIO2   | D+  |     |          |
+| 4   | GND  | GND       | GND  | GND   | GND     | GND | GND | GND      |
+| 5   | RX   | MOSI/MOMI | SWIM | SWDIO | RX      |     | SDA | DAT      |
+| 6   | TX   | MISO      |      | SWO   | TX      |     |     | AUX      |
+| 7   | CTS  | SCK/CLK   |      | SWCLK | CH_PD   |     | SCL | CLK      |
+| 8   | RTS  | RST       | NRST | NRST  | RST     | ID  |     |          |
