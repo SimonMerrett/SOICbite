@@ -1,0 +1,35 @@
+Element["" "REF  " "" "" 0 0 0 0 0 100 ""]
+(
+Pad[75mil -1.100mm 75mil -0.400mm 0.800mm 20mil 1.000mm "GND" "1" ""]
+Pad[25mil -1.100mm 25mil -0.400mm 0.800mm 20mil 1.000mm "GND" "2" ""]
+Pad[-25mil -1.100mm -25mil -0.400mm 0.800mm 20mil 1.000mm "GND" "3" ""]
+Pad[-75mil -1.100mm -75mil -0.400mm 0.800mm 20mil 1.000mm "GND" "4" ""]
+Pad[-75mil -1.100mm -75mil -0.400mm 0.800mm 20mil 1.000mm "GND" "5" "onsolder"]
+Pad[-25mil -1.100mm -25mil -0.400mm 0.800mm 20mil 1.000mm "GND" "6" "onsolder"]
+Pad[25mil -1.100mm 25mil -0.400mm 0.800mm 20mil 1.000mm "GND" "7" "onsolder"]
+Pad[75mil -1.100mm 75mil -0.400mm 0.800mm 20mil 1.000mm "GND" "8" "onsolder"]
+Pin[-100mil -75mil 0.700mm 20mil 0.903mm 0.700mm "GND" "9" "hole"]
+Pin[-50mil -75mil 0.700mm 20mil 0.903mm 0.700mm "GND" "10" "hole"]
+Pin[0 -75mil 0.700mm 20mil 0.903mm 0.700mm "GND" "11" "hole"]
+Pin[50mil -75mil 0.700mm 20mil 0.903mm 0.700mm "GND" "12" "hole"]
+Pin[100mil -75mil 0.700mm 20mil 0.903mm 0.700mm "GND" "13" "hole"]
+ElementLine[-125mil 15mil 125mil 15mil 2mil]
+ElementLine[-125mil -100mil -125mil 15mil 2mil]
+ElementLine[125mil -100mil -125mil -100mil 2mil]
+ElementLine[125mil 15mil 125mil -100mil 2mil]
+ElementLine[50mil -15mil 50mil -50mil 4mil]
+ElementLine[100mil -15mil 100mil -50mil 4mil]
+ElementLine[-150mil 15mil 150mil 15mil 4mil]
+ElementLine[125mil -100mil -125mil -100mil 4mil]
+ElementLine[125mil 15mil 125mil -100mil 4mil]
+ElementLine[-125mil -100mil -125mil 15mil 4mil]
+ElementLine[125mil -100mil 125mil 15mil 2mil]
+ElementLine[125mil 15mil -125mil 15mil 2mil]
+ElementLine[-125mil 15mil -125mil -100mil 2mil]
+ElementLine[-125mil -100mil 125mil -100mil 2mil]
+ElementArc[75mil -15mil 25mil 25mil 180 -180 4mil]
+Attribute("author" "Tom Price")
+Attribute("use-license" "unlimited")
+Attribute("dist-license" "BSD 2-clause")
+Attribute("description" "SOICbite footprint, see https://github.com/SimonMerrett/SOICbite")
+)

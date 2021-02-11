@@ -1,0 +1,102 @@
+T 0 0 0 0 0 0 0 0 0
+author=Tom Price
+T 0 0 0 0 0 0 0 0 0
+use-license=unlimited
+T 0 0 0 0 0 0 0 0 0
+dist-license=BSD 2-clause
+T 0 0 0 0 0 0 0 0 0
+description=SOICbite footprint, see https://github.com/SimonMerrett/SOICbite
+v 20110115 1
+P 600 800 600 700 3 0 0
+{
+T 585 750 5 7 1 1 90 3 1
+pinnumber=1
+T 600 685 3 5 1 1 90 7 1
+pinlabel=P$1
+T 585 750 5 7 0 1 90 3 1
+pinseq=1
+T 585 750 5 7 0 1 90 3 1
+pintype=pas
+}
+P 400 800 400 700 3 0 0
+{
+T 385 750 5 7 1 1 90 3 1
+pinnumber=2
+T 400 685 3 5 1 1 90 7 1
+pinlabel=P$2
+T 385 750 5 7 0 1 90 3 1
+pinseq=2
+T 385 750 5 7 0 1 90 3 1
+pintype=pas
+}
+P 200 800 200 700 3 0 0
+{
+T 185 750 5 7 1 1 90 3 1
+pinnumber=3
+T 200 685 3 5 1 1 90 7 1
+pinlabel=P$3
+T 185 750 5 7 0 1 90 3 1
+pinseq=3
+T 185 750 5 7 0 1 90 3 1
+pintype=pas
+}
+P 0 800 0 700 3 0 0
+{
+T -15 750 5 7 1 1 90 3 1
+pinnumber=4
+T 0 685 3 5 1 1 90 7 1
+pinlabel=P$4
+T -15 750 5 7 0 1 90 3 1
+pinseq=4
+T -15 750 5 7 0 1 90 3 1
+pintype=pas
+}
+P 0 200 0 300 3 0 0
+{
+T -15 250 5 7 1 1 90 3 1
+pinnumber=5
+T 0 315 3 5 1 1 90 1 1
+pinlabel=P$5
+T -15 250 5 7 0 1 90 3 1
+pinseq=5
+T -15 250 5 7 0 1 90 3 1
+pintype=pas
+}
+P 200 200 200 300 3 0 0
+{
+T 185 250 5 7 1 1 90 3 1
+pinnumber=6
+T 200 315 3 5 1 1 90 1 1
+pinlabel=P$6
+T 185 250 5 7 0 1 90 3 1
+pinseq=6
+T 185 250 5 7 0 1 90 3 1
+pintype=pas
+}
+P 400 200 400 300 3 0 0
+{
+T 385 250 5 7 1 1 90 3 1
+pinnumber=7
+T 400 315 3 5 1 1 90 1 1
+pinlabel=P$7
+T 385 250 5 7 0 1 90 3 1
+pinseq=7
+T 385 250 5 7 0 1 90 3 1
+pintype=pas
+}
+P 600 200 600 300 3 0 0
+{
+T 585 250 5 7 1 1 90 3 1
+pinnumber=8
+T 600 315 3 5 1 1 90 1 1
+pinlabel=P$8
+T 585 250 5 7 0 1 90 3 1
+pinseq=8
+T 585 250 5 7 0 1 90 3 1
+pintype=pas
+}
+T 900 930 3 7 0 0 0 0 1
+numslots=0
+B -200 300 1000 400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 600 320 3 7 0 0 0 0 1
+footprint=SOICBITE
