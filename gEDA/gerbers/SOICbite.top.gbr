@@ -1,0 +1,18 @@
+G04 start of page 2 for group 0 idx 0 *
+G04 Title: (unknown), top *
+G04 Creator: pcb 20140316 *
+G04 CreationDate: Thu 11 Feb 2021 04:58:24 PM GMT UTC *
+G04 For: tom *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions (mil): 300.00 250.00 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNTOP*%
+%ADD12C,0.0276*%
+%ADD11C,0.0315*%
+G54D11*X12500Y6331D02*Y3575D01*
+X7500Y6331D02*Y3575D01*
+X22500Y6331D02*Y3575D01*
+X17500Y6331D02*Y3575D01*
+G54D12*M02*
