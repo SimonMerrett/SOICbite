@@ -11,7 +11,7 @@ This has been tested as a SPI programmer on AVRs and a UART programmer on ESP32.
 
 The footprints are available in the following formats:
 
-- Kicad (kiacd_mod)
+- Kicad (.kicad_mod)
 - Eagle XML (.lbr)
 - gEDA PCB (.fp)
 - pcb-rnd (.lht)
