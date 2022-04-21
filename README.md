@@ -9,12 +9,12 @@ It's cheaper than a Tag Connect and may even be smaller.
 
 This has been tested as a SPI programmer on AVRs and a UART programmer on ESP32.
 
-The footprints are available as
+The footprints are available in the following formats:
 
-- a Kicad mod footprint file
-- Eagle XML
-- gEDA PCB
-- pcb-rnd 
+- Kicad (kiacd_mod)
+- Eagle XML (.lbr)
+- gEDA PCB (.fp)
+- pcb-rnd (.lht)
 
 and more formats are welcome.
 
