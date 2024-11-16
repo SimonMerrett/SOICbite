@@ -26,13 +26,13 @@ Also, you may need to use short sections of thin traces to escape the pads betwe
 
 If you don't know where to start, here are a few suggestions for pin assignments of some interfaces:
 
-| Pin | UART | SPI       | SWIM | SWD   | ESP8266 | USB | I2C | PIC ICSP | JTAG |
-| --- | ---- | --------- | ---- | ----- | ----------- | --- | --- | -------- | ---- |
-| 1   | Vcc  | Vcc       | Vcc  | Vcc   | Vcc         | Vcc | Vcc | Vcc      | Vcc  |
-| 2   | RX2  | CS        |      |       | GPIO0       | D-  |     | Vpp      | TMS  |
-| 3   | TX2  |           |      |       | GPIO2       | D+  |     |          | TCK  |
-| 4   | GND  | GND       | GND  | GND   | GND         | GND | GND | GND      | GND  |
-| 5   | RX   | MOSI/MOMI | SWIM | SWDIO | RX          |     | SDA | DAT      | TDI  |
-| 6   | TX   | MISO      |      | SWO   | TX          |     |     | AUX      | TDO  |
-| 7   | CTS  | SCK/CLK   |      | SWCLK | CH_PD       |     | SCL | CLK      | RTCK |
-| 8   | RTS  | RST       | NRST | NRST  | RST         | ID  |     |          | NRST |
+| Pin | UART | SPI       | SWIM | SWD   | ESP8266     | USB | I2C | PIC ICSP | JTAG | SWD + UART |
+| --- | ---- | --------- | ---- | ----- | ----------- | --- | --- | -------- | ---- | ---------- |
+| 1   | Vcc  | Vcc       | Vcc  | Vcc   | Vcc         | Vcc | Vcc | Vcc      | Vcc  | Vcc        |
+| 2   | RX2  | CS        |      |       | GPIO0       | D-  |     | Vpp      | TMS  | RX         |
+| 3   | TX2  |           |      |       | GPIO2       | D+  |     |          | TCK  | TX         |
+| 4   | GND  | GND       | GND  | GND   | GND         | GND | GND | GND      | GND  | GND        |
+| 5   | RX   | MOSI/MOMI | SWIM | SWDIO | RX          |     | SDA | DAT      | TDI  | SWDIO      |
+| 6   | TX   | MISO      |      | SWO   | TX          |     |     | AUX      | TDO  | SWO        |
+| 7   | CTS  | SCK/CLK   |      | SWCLK | CH_PD       |     | SCL | CLK      | RTCK | SWCLK      |
+| 8   | RTS  | RST       | NRST | NRST  | RST         | ID  |     |          | NRST | NRST       |
